@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHNibLoadable_Example' do
+  pod 'AHNibLoadable', :path => '../'
+
+  target 'AHNibLoadable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
